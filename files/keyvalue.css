@@ -1,0 +1,25 @@
+.inputBox
+{
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  max-width: 25%;
+}
+p
+{
+  display: inline;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  padding-bottom: 10px;
+}
+.savedData
+{
+  display: none;
+}
+h2
+{
+  font-size: 75%;
+}
