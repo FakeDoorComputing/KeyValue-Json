@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Key Value Pair</title>
+		<title>Key Value Pair with Json</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--		<link href="jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"> -->
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
 		<link rel="stylesheet" href="files/keyvalue.css"/>
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-<!--		<script src="jquery-mobile/jquery-1.8.3.min.js" type="text/javascript"></script>
-		<script src="jquery-mobile/jquery.mobile-1.4.5.min.js" type="text/javascript"></script> -->
 		<script src="js/saveload.js"></script>
 	</head>
 
 	<body>
 		<div id="page">
-			<div><h1>key / Value Pairs</h1></div>
-			<div>
-				<form id="login" name="login" action="javascript:save()" method="POST">
-					<p>Key : </p><input class="inputBox" type="text" name="k1" id="key1"/>
-					<p>Value : </p><input class="inputBox" type="text" name="v1" id="value1" value="" /><br /><br /><br />
-					<p>Key : </p><input class="inputBox" type="text" name="k2" id="key2" value="" />
-					<p>Value : </p><input class="inputBox" type="text" name="v2" id="value2" value="" /><br /><br /><br />
-					<p>Key : </p><input class="inputBox" type="text" name="k3" id="key3" value="" />
-					<p>Value : </p><input class="inputBox" type="text" name="v3" id="value3" value="" /><br /><br /><br />
-					<p>Key : </p><input class="inputBox" type="text" name="k4" id="key4" value="" />
-					<p>Value : </p><input class="inputBox" type="text" name="v4" id="value4" value="" /><br /><br /><br />
-					<p>Key : </p><input class="inputBox" type="text" name="k5" id="key5" value="" />
-					<p>Value : </p><input class="inputBox" type="text" name="v5" id="value5" value="" /><br /><br /><br />
-					<input type="submit" name="saveBtn" id="saveBtn" value="Save these pairs" />
-				</form>
-				<div class="savedData">
-					<h1>Saved Data</h1>
-					<h2 id="kv1">1</h2>
-					<h2 id="kv2">2</h2>
-					<h2 id="kv3">3</h2>
-					<h2 id="kv4">4</h2>
-					<h2 id="kv5">5</h2>
+			<div><h1>key / Value Pairs in JSON</h1></div>
+			<div id="menu">
+				<button onclick="myFunction()" class="dropbtn">Choose Your Favourite</button>
+  			<div id="myDropdown" class="menu-content">
+    			<div id="mars">Mars Bar</div>
+    			<div id="galaxy">Galaxy Honeycomb</div>
+    			<div id="maltesers">Maltesers</div>
+  			</div>
+			</div>
+
+			<div id="displayValues">
+				<h2 id="choc">choc</h2>
+				<p id="chocWeight">chocWeight</p>
+				<p id="chocCalFat">chocCalFat</p>
+				<p id="chocCarbSug">chocCarbSug</p>
+				<p id="chocSalt">chocSalt</p>
 			</div>
 		</div>
 	</body>
