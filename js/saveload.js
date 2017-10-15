@@ -1,7 +1,7 @@
 var chocolates={"item":[
   {"name":"Mars Bar","weight":"51g","kcal":"228","fat":"8.5g","carbohydrate":"35.3g","sugar":"30.5g","salt":"0.21g"},
-  {"name":"Galaxy Honeycomb","weight":"22.8g","Kcal":"125","fat":"7.3g","carbohydrate":"13.2g","sugar":"13.0g","salt":"0.06g"},
-  {"name":"Maltesers","weight":"37g","Kcal":"186","fat":"9.1g","carbohydrate":"22.8g","sugar":"19.1g","salt":"0.17g"}
+  {"name":"Galaxy Honeycomb","weight":"22.8g","kcal":"125","fat":"7.3g","carbohydrate":"13.2g","sugar":"13.0g","salt":"0.06g"},
+  {"name":"Maltesers","weight":"37g","kcal":"186","fat":"9.1g","carbohydrate":"22.8g","sugar":"19.1g","salt":"0.17g"}
 ]};
 
 var chocNo=0;
